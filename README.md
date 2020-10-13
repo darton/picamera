@@ -1,4 +1,7 @@
-## Very simple WebAPI for Raspberry Pi camera to grab photo.
+# Very simple WebAPI for Raspberry Pi camera to grab photo.
+
+## Installation
+sudo curl -sS https://raw.githubusercontent.com/darton/picamera/main/install.sh | bash 
 
 ### options
 http://ipaddress/api/picamera.php
