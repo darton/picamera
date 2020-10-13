@@ -15,7 +15,7 @@ Running the following command will download and run the script.
 sudo curl -sS https://raw.githubusercontent.com/darton/picamera/main/install.sh | bash 
 ```
 
-### options
+### show options/settings
 http://ipaddress/api/picamera.php
 
 ###  taking a photo
