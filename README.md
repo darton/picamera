@@ -18,9 +18,10 @@ sudo curl -sS https://raw.githubusercontent.com/darton/picamera/main/install.sh 
 ### show options/settings
 http://ipaddress/api/picamera.php
 
-###  taking a photo
+### taking a photo
 http://ipaddress/api/picamera.php?picture=grab&filename=filename.jpg
 
+### taking a photo with advanced options
 http://ipaddress/api/picamera.php?picture=grab&filename=filename.jpg&rotate=270&vertical_flip=yes&horizontal_flip=yes
 
 ###  delete a file
