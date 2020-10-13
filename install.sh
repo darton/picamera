@@ -32,8 +32,8 @@ sudo systemctl enable $PHPFPMSERVICE
 
 sudo rm $wwwdir/index.nginx-debian.html
 
-curl -sS https://raw.githubusercontent.com/darton/picamera/master/api/picamera.php > $installdir/picamera.php
-curl -sS https://raw.githubusercontent.com/darton/picamera/master/nginx-default > $installdir/nginx-default
+curl -sS https://raw.githubusercontent.com/darton/picamera/main/api/picamera.php > $installdir/picamera.php
+curl -sS https://raw.githubusercontent.com/darton/picamera/main/nginx-default > $installdir/nginx-default
 sudo touch $wwwdir/index.php
 sudo cp $installdir/picamera.php $wwwdir/api/
 sudo mv /etc/nginx/sites-available/default /etc/nginx/sites-available/default.org
